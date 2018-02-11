@@ -1,20 +1,20 @@
 package edu.elon.strategy;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class MallardDuckTest {
   private MallardDuck duck;
 
-  @Before
+  @BeforeEach
   public void setUp() throws Exception {
     duck = new MallardDuck();
   }
 
-  @After
+  @AfterEach
   public void tearDown() throws Exception {
     duck = null;
   }

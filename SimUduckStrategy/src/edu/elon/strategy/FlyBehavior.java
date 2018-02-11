@@ -1,5 +1,5 @@
 /*
- * Flyable.java version 1.0 Sep 4, 2015
+ * Flyable.java version 1.0 Feb 11, 2018
  *
  * Copyright (c) 2015 Head First Design Patterns
  */

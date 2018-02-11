@@ -1,5 +1,5 @@
 /*
- * MallardDuck.java version 1.0 Sep 4, 2015
+ * MallardDuck.java version 1.0 Feb. 11, 2018
  *
  * Copyright (c) 2015 Elon University
  * Elon, North Carolina, 27244 U.S.A.

@@ -1,7 +1,7 @@
 /*
- * Flyable.java version 1.0 Sep 4, 2015
+ * Flyable.java version 1.0 Feb 10, 2018
  *
- * Copyright (c) 2015 Elon University
+ * Copyright (c) 2018 Elon University
  * Elon, North Carolina, 27244 U.S.A.
  * All Rights Reserved
  */
