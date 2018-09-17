@@ -1,5 +1,5 @@
 /**
- * Getenv.java 1.0 Feb 11, 2018
+ * Getenv.java 1.0 September 17, 2018
  *
  * Copyright (c) 2018 Elon University
  * Elon, North Carolina, 27244 U.S.A.
@@ -20,22 +20,22 @@ public class Getenv {
 
   /**
    * main application to demonstrate getting value of a well known
-   * environment variable, PATH.
+   * environment variable, CLASSPATH.
    * 
    * @param args String [] of command line parameters.
    */
   public static void main(String[] args) {
-    String path = "";
+    String classpath = "";
     StringTokenizer st;
     try {
-      path = System.getenv("PATH");
-      System.out.println("PATH is:" + path);
-      st = new StringTokenizer(path, ":");
+      classpath = System.getenv("CLASSPATH");
+      System.out.println("CLASSPATH is:" + classpath);
+      st = new StringTokenizer(classpath, ":");
       while (st.hasMoreTokens()) {
         System.out.println("\t" + st.nextToken());
       }
     } catch (NullPointerException e) {
-      System.out.println("Environmental Variable, PATH, not defined.");
+      System.out.println("Environmental Variable, CLASSPATH, not defined.");
       e.printStackTrace();
     }
     System.exit(0);
